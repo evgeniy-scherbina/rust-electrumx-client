@@ -1,0 +1,13 @@
+[package]
+name = "electrumx_client"
+version = "0.1.0"
+authors = ["evgeniy.scherbina <evgeniy.scherbina@bitfury.com>"]
+
+[dependencies]
+serde = "1.0.80"
+serde_derive = "1.0.80"
+serde_json = "1.0.33"
+bitcoin = "0.15.1"
+hex = "0.3.2"
+sha2 = "0.8.0"
+clap = "2.32.0"
