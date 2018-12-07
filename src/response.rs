@@ -14,7 +14,7 @@ pub struct GetBalanceResponse {
 #[derive(Debug, Deserialize)]
 pub struct GetHistoryResponse {
     height:  usize,
-    tx_hash: String,
+    pub tx_hash: String,
 }
 
 #[derive(Debug, Deserialize)]
